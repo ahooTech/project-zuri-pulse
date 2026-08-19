@@ -1,0 +1,25 @@
+# --- Python bytecode & cache (never needed in images) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Virtual environments (huge, host-only) ---
+.venv/
+venv/
+
+# --- Secrets (must NEVER be baked into an image) ---
+.env
+.env.*
+
+# --- Version control metadata ---
+.git/
+.gitignore
+
+# --- Build metadata (keeps context lean & cache stable) ---
+Dockerfile
+.dockerignore
+
+# --- Docs ---
+*.md

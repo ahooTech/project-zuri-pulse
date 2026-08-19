@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+prometheus-fastapi-instrumentator
+httpx
+redis
+elasticsearch
+pydantic
+psycopg2-binary

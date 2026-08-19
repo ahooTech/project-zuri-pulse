@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.csv
+
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+plan.tfplan
+infra/terraform/backend/aws.hcl
+infra/terraform/backend/azure.hcl
+infra/terraform/backend/gcp.hcl
+*.auto.tfvars.json

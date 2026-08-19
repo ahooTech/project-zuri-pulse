@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+prometheus-fastapi-instrumentator
+httpx
+redis
+elasticsearch==8.13.0
+pydantic
