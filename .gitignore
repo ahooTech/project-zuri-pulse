@@ -14,4 +14,7 @@ plan.tfplan
 infra/terraform/backend/aws.hcl
 infra/terraform/backend/azure.hcl
 infra/terraform/backend/gcp.hcl
-*.auto.tfvars.json
+*.auto.tfvars.json# Terraform Phase 2 additions
+infra/terraform/backends/**/*.hcl
+infra/terraform/**/.terraform/
+*.tfplan
