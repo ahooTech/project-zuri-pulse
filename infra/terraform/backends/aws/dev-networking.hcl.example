@@ -1,0 +1,5 @@
+bucket         = "REPLACE_WITH_AWS_STATE_BUCKET"
+key            = "zuri-platform/dev/networking/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "REPLACE_WITH_AWS_LOCK_TABLE"
+encrypt        = true

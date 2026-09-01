@@ -111,3 +111,6 @@ Never commit *.auto.tfvars.json files containing secrets.
 Never commit cloud credentials.
 Always run terraform plan before terraform apply.
 Always destroy unused dev resources to control cost.
+
+
+
