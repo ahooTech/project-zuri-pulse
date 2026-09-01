@@ -18,3 +18,9 @@ infra/terraform/backend/gcp.hcl
 infra/terraform/backends/**/*.hcl
 infra/terraform/**/.terraform/
 *.tfplan
+
+# Prevent secrets and large generated files
+Codebase.md
+Codebase.pdf
+infra/terraform/bootstrap/state-backup/
+
